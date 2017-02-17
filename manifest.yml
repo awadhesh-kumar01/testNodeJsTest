@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: testNodeJsTest
+  host: testNodeJsTest
+  disk_quota: 1024M
+  services:
+  - testNodeJsTest-cloudantNoSQLDB
+  - AlchemyAPI-5t
+  - Conversation-mp
+  - Language Translator-c6
